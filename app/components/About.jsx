@@ -72,7 +72,7 @@ const About = ({isDarkMode, setIsDarkMode}) => {
                 <h3 className={`my-4 font-semibold ${isDarkMode ? 'text-white' : 'text-gray-700'}`}>
                 {title}</h3>
                 <p className={`text-sm ${isDarkMode ? 'text-white/80' : 'text-gray-600'}`}>
-                {description}3</p>
+                {description}</p>
 
               </motion.li>
             ))}

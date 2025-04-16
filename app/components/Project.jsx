@@ -61,7 +61,7 @@ const Project = ({isDarkMode, setIsDarkMode}) => {
                     <h3 className={`my-4 font-semibold ${isDarkMode ? 'text-white' : 'text-gray-700'}`}>
                     {title}</h3>
                     <p className={`text-sm ${isDarkMode ? 'text-white/80' : 'text-gray-600'}`}>
-                    {description}3</p>
+                    {description}</p>
 
                     <a href={link} className='flex items-center gap-2 text-sm mt-5'>
                         Read more <Image alt='' src={assets.right_arrow} className='w-4'/>
