@@ -129,15 +129,15 @@ export const projectData = [
   },
   
   {icon: assets.ui_icon,
-    title: 'Simple Swift Mobile Game',
-    description: 'A fun and minimal game built in the Swift environment to sharpen my iOS development skills.',
+    title: 'Piggy Panic IOS Moblie App',
+    description: 'Piggy Panic is a fun, gamified savings tracker that helps users set financial goals, track progress, and stay motivated with animated piggy moods based on their saving habits.',
     link: '',}
 ];
 
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Software engineer in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, Swift, Python' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Computer Science in Software engineering' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built several projects to turn lessons into hands-on experience.' }
 ];
 
