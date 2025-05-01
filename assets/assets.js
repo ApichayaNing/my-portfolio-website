@@ -117,21 +117,21 @@ export const projectData = [
   },
   {
     icon: assets.mobile_icon,
-    title: 'Chatbot',
-    description: 'A fun way to explore interaction through conversational UI.',
-    link: '',
+    title: 'Chatbot A Cup Of Care',
+    description: 'A cozy chatbot to brighten your day with kindness.',
+    link: '/Chatbot',
   },
   {
     icon: assets.graphics_icon,
     title: 'Blog Website',
     description: 'A space where I share thoughts on tech, design, and growth.',
-    link: '',
+    link: 'https://github.com/ApichayaNing/my-portfolio-website',
   },
   
   {icon: assets.ui_icon,
     title: 'Piggy Panic IOS Moblie App',
     description: 'Piggy Panic is a fun, gamified savings tracker that helps users set financial goals, track progress, and stay motivated with animated piggy moods based on their saving habits.',
-    link: '',}
+    link: 'https://github.com/ApichayaNing/piggy-panic-app',}
 ];
 
 

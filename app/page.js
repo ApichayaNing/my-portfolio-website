@@ -6,6 +6,9 @@ import Project from "./components/Project";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Chatbot from './components/Chatbot';
+<Route path="/chatbot" element={<Chatbot />} />
+
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -49,6 +52,7 @@ export default function Home() {
       <Blog isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
+      <Chatbot isDarkMode={isDarkMode} />
     </>
   );
 }

@@ -3,6 +3,7 @@ import { assets, projectData } from '@/assets/assets'
 import Image from 'next/image'
 import React, { useState, useEffect, useRef } from 'react'
 import { motion } from "motion/react"
+import Link from 'next/link'
 
 const Project = ({isDarkMode, setIsDarkMode}) => {
   return (
@@ -63,9 +64,9 @@ const Project = ({isDarkMode, setIsDarkMode}) => {
                     <p className={`text-sm ${isDarkMode ? 'text-white/80' : 'text-gray-600'}`}>
                     {description}</p>
 
-                    <a href={link} className='flex items-center gap-2 text-sm mt-5'>
+                    <Link href={link} className='flex items-center gap-2 text-sm mt-5'>
                         Read more <Image alt='' src={assets.right_arrow} className='w-4'/>
-                    </a>
+                    </Link>
                 </motion.li>
             ))}
         </motion.div>
