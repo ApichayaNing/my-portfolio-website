@@ -119,7 +119,7 @@ export const projectData = [
     icon: assets.mobile_icon,
     title: 'Chatbot A Cup Of Care',
     description: 'A cozy chatbot to brighten your day with kindness.',
-    link: '/Chatbot',
+    link: '/#chatbot',
   },
   {
     icon: assets.graphics_icon,
