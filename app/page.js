@@ -48,44 +48,27 @@ export default function Home() {
       <About isDarkMode={isDarkMode} />
       <Project isDarkMode={isDarkMode} />
 
-      {/* 🌸 Embedded Chatbot section */}
       <div
       id="chatbot"
-       style={{
-       maxWidth: '900px',
-       margin: '2rem auto',
-       padding: '2rem',
-       display: 'flex',
-       flexDirection: 'column',
-       alignItems: 'center'
-        }}
+      className="w-full max-w-3xl mx-auto my-8 p-6 flex flex-col items-center rounded-2xl "
       >
-      <h2
-       style={{
-        fontSize: '2rem',
-        marginBottom: '1rem',
-        textAlign: 'center'
-        }}
-      >
-      ☕ Cup of Care Chatbot 🌸
+      <h2 className="text-5xl font-Ovo mb-4 text-center">
+       ☕ Cup of Care Chatbot 🌸
       </h2>
-      <iframe 
+      <p className="text-center max-w-lg mb-4 text-gray-600">
+      A Cup of Care ☕ is a cozy chatbot that offers warm messages to brighten your day and lift your mood 🤎. Whether you’re feeling stressed, tired, or just need a little kindness ⭐️, 
+      it’s here to help with a virtual sip of comfort. 🌸
+      </p>
+      <iframe
       src="https://a-cup-of-care.onrender.com"
-      style={{
-        width: '60%',
-        height: '500px',
-        border: 'none',
-        borderRadius: '20px',   
-        
-      }}
+      className="w-full max-w-xl h-[500px] rounded-2xl border-0"
       title="Cup of Care Chatbot"
       ></iframe>
       </div>
 
-
       <Blog isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
-    </>
+      </>
   );
 }
